@@ -4,7 +4,7 @@ body {
 	color: black;
 	font-family: Arial;
 }
-@media screen and (max-width: 480px) {
+ @media screen and (max-width: 480px) {
 body {
 	padding: 768px;
 	margin: 100px;
@@ -13,6 +13,7 @@ body {
 	font-family: Arial;
 }
 #first {
+	width: 480px;
 	height: 480px;
 	background: url(../img/first.jpg) no-repeat center top / cover;
 	color: #fff;
