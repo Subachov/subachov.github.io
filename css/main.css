@@ -4,6 +4,24 @@ body {
 	color: black;
 	font-family: Arial;
 }
+@media screen and (max-width: 480px) {
+body {
+	padding: 768px;
+	margin: 100px;
+	border: 5px solid grey;
+	color: black;
+	font-family: Arial;
+}
+#first {
+	height: 480px;
+	background: url(../img/first.jpg) no-repeat center top / cover;
+	color: #fff;
+}
+.container {
+	width: 444px;
+	margin: 0px auto;
+}
+}
 
 #first {
 	height: 800px;
