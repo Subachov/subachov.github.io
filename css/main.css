@@ -19,7 +19,8 @@ body {
 	color: #fff;
 }
 .container {
-	width: 80%;
+	width: 50px;
+	margin: 0px auto;
 }
 }
 
