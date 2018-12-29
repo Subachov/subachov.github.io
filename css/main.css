@@ -13,6 +13,7 @@ body {
 	height: 800px;
 	background: url(../img/first.jpg) no-repeat center top / cover;
 	color: #fff;
+	max-width: 100%;
 }
 
 .container {
