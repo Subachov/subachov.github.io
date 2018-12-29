@@ -4,13 +4,6 @@ body {
 	color: black;
 	font-family: Arial;
 }
-}
-#first {
-	width: 300px;
-	height: 480px;
-	background: url(../img/first.jpg) repeat center top / cover;
-	color: #fff;
-}
 .container {
 	width: 50px;
 	margin: 0px auto;
