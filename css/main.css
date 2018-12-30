@@ -4,6 +4,12 @@ body {
 	color: black;
 	font-family: Arial;
 }
+
+@media (max-width: 768px) {
+	body {
+		height:100vn;
+	}
+}
 .container {
 	width: 50px;
 	margin: 0px auto;
