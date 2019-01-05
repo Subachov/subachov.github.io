@@ -12,11 +12,7 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 }
-@media (max-width: 768px) {
-	body {
-		height:100vn;
-	}
-}
+
 .container {
 	width: 50px;
 	margin: 0px auto;
@@ -210,4 +206,103 @@ footer .logo {
 
 .button:active {
 	background: rgb(77, 19, 209);
+}
+
+
+@media screen and ( max-width: 420px) {
+	.container {
+	width: 50px;
+	margin: 0px auto;
+}
+
+#first {
+	height: 420px;
+	background: url(../img/first.jpg) no-repeat center top / cover;
+	color: #fff;
+	max-width: 80%;
+}
+
+.container {
+	width: 250px;
+	margin: 0px auto;
+}
+
+header {
+	padding-top: 20px;
+}
+
+.mail {
+	float: left;
+	font-size: 14px;
+	background: url(../img/mail.png) no-repeat left center;
+	padding-left: 25px;
+}
+
+.logo {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 120px;
+}
+
+
+#about {
+	padding-top: 60px;
+	padding-bottom: 120px;
+}
+
+.photo {
+	display: block;
+	margin: 50px auto 26px auto;
+}
+
+.about-title {
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about-text {
+	text-align: center;
+	width: 220px;
+	margin: 0px auto;
+}
+
+.social-block {
+	margin: 30px auto;
+	width: 40px;
+}
+
+.clearfix:after {
+	content:'';
+	display: block;
+	width: 80;
+}
+
+.social {
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: black;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+}
+
+.social:nth-child(3) {
+	margin-right: 0px;
+}
+
+.social:hover {
+	background: #ffb400;
+	box-shadow: 0px 0px 0px 6px #ffe4a3;
+}
+
+#order {
+	background: #f2f2f2;
+	padding: 60px 0px 100px 0px;
 }
